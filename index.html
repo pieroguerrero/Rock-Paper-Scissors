@@ -5,13 +5,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Siccors</title>
+    <title>Rock Paper Scissors</title>
 
-    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="script.js" defer></script>
 
 </head>
 
 <body>
+    <div class="welcome">
+        <div class="content">
+            <div class="text">
+                <h1 class="title">Rock, Papaer, Scissors</h1>
+            </div>
+            <div class="versus">
+                <div class="div-img-text">
+                    <img class="img-player" src="img/caveman.jpg" alt="cave human">
+                    <p class="description">Human</p>
+                </div>
+                <div class="div-img-versus">
+                    <img class="img-versus" src="img/versus.png" alt="versus">
+                </div>
+                <div class="div-img-text">
+                    <img class="img-player" src="img/computer-2.jpg" alt="computer">
+                    <p class="description">Computer</p>
+                </div>
+            </div>
+
+            <div class="text-desc">
+                <h3 class="game-description">You will have 5 chances to defeat the artificial inteligence.<BR>Are you
+                    ready?
+                </h3>
+            </div>
+            <div class="action">
+                <button class="start button-50">Start now!</button>
+            </div>
+        </div>
+        <!-- <h1>Rock, Papaer, Scissors game</h1>
+        <h2>Welcome, your are about to play 5 rounds againts the computer.<BR>Are you ready?</h2>
+        <button class="start">Start Game</button> -->
+    </div>
+    <div class="game">
+        <div class="content">
+            <div class="header">
+                <h2 class="title"></h2>
+            </div>
+            <div class="choice">
+                <h4 class="directions">Choose your weapon:</h4>
+                <div class="choice-buttons">
+                    <button value="ROCK" class="btn">
+                        <img class="img-choice" src="img/rock.png" />
+                    </button>
+                    <button value="PAPER" class="btn">
+                        <img class="img-choice" src="img/paper.png" />
+                    </button>
+                    <button value="SCISSORS" class="btn">
+                        <img class="img-choice" src="img/scissors.png" />
+                    </button>
+                </div>
+            </div>
+            <div class="versus-results">
+                <h3 class="results-title">Selected wepons:</h3>
+                <div class="versus">
+                    <div class="div-img-text">
+                        <img class="img-player human-choice" src="" alt="cave human">
+                        <p class="description">Your choice</p>
+                    </div>
+                    <div class="div-img-versus">
+                        <img class="img-versus" src="img/versus.png" alt="versus">
+                    </div>
+                    <div class="div-img-text">
+                        <img class="img-player computer-choice" src="" alt="computer">
+                        <p class="description">Computer's choice</p>
+                    </div>
+                </div>
+                <h4 class="text-result"></h4>
+            </div>
+            <div class="partial-score">
+                <h4 class="partial-score-title"></h4>
+                <div class="partial-score-numbers">
+                    <div class="playes-score">
+                        <p class="human-partial-score"></p>
+                        <p class="separator">|</p>
+                        <p class="computer-partial-score"></p>
+                    </div>
+                    <p class="tie"></p>
+                </div>
+            </div>
+            <div class="action">
+                <button class="next-game button-50"></button>
+            </div>
+        </div>
+    </div>
+    <div class="final-result">
+        <div class="content">
+            <h2 class="final-result-title">Final Results</h2>
+            <div class="score">
+                <h4 class="tie"></h4>
+
+                <div class="versus">
+                    <div class="div-img-text">
+                        <img class="img-player" src="img/caveman.jpg" alt="cave human">
+                        <p class="description human">Human</p>
+                    </div>
+                    <div class="div-img-versus">
+                        <img class="img-versus" src="img/versus.png" alt="versus">
+                    </div>
+                    <div class="div-img-text">
+                        <img class="img-player" src="img/computer-2.jpg" alt="computer">
+                        <p class="description computer">Computer</p>
+                    </div>
+                </div>
+                <p class="final-result-text"></p>
+            </div>
+            <button class="restart button-50">Play again</button>
+        </div>
+
+    </div>
 
 </body>
 
